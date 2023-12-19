@@ -21,6 +21,11 @@ void SLL_DestroyNode(Node* Node)
 void SLL_DestroyAllNode(Node** List)
 {
 	int Count = SLL_GetNodeCount(*List);
+	for (int i = 0; i < Count; i++)
+	{
+		Node* Current = SLL_GetNodeAt(*List, i);
+		free(Current);
+	}
 }
 
 // 노드 추가
