@@ -9,6 +9,7 @@ int main()
 	Node* NewNode = NULL;
 
 	// 노드 5개 추가
+	printf("Node 5개 추가\n");
 	for (i = 0; i < 5; i++)
 	{
 		NewNode = SLL_CreateNode(i);
@@ -22,6 +23,7 @@ int main()
 	SLL_InsertNewHead(&List, NewNode);
 
 	// 리스트 출력
+	printf("Node 리스트 출력\n");
 	Count = SLL_GetNodeCount(List);
 	for (i = 0; i < Count; i++)
 	{
@@ -38,12 +40,14 @@ int main()
 	SLL_InsertAfter(Current, NewNode);
 
 	// 리스트의 세 번째 노드 앞에 새 노드 삽입
+	printf("\nInserting 5000 Before [2]...\n\n");
 	Current = SLL_GetNodeAt(List, 2);
 	NewNode = SLL_CreateNode(5000);
 
 	SLL_InsertBefore(&List, Current, NewNode);
 
 	// 리스트 출력
+	printf("Node 리스트 출력\n");
 	Count = SLL_GetNodeCount(List);
 	for (i = 0; i < Count; i++)
 	{
