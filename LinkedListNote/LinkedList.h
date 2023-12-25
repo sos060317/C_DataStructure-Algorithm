@@ -1,8 +1,5 @@
 #pragma once
 
-#ifndef LINKEDLIST_H
-#define LINKEDLIST_H
-
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -25,5 +22,3 @@ void  SLL_InsertNewHead(Node** Head, Node* NewHead);			   // 노드 헤드 삽입
 void  SLL_RemoveNode(Node** Head, Node* Remove);				   // 노드 제거
 Node* SLL_GetNodeAt(Node* Head, int Location);					   // 노드 탐색
 int	  SLL_GetNodeCount(Node* Head);								   // 노드 개수 세기
-
-#endif
