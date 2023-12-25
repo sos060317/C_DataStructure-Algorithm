@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PointerNote", "PointerNote\PointerNote.vcxproj", "{10A9938B-053A-4F87-A214-51770DA0C395}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedListNotd", "LinkedListNotd\LinkedListNotd.vcxproj", "{CA6F3462-E5B3-42BB-B4DC-8F894C1D9B26}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedListNotd", "LinkedListNote\LinkedListNotd.vcxproj", "{CA6F3462-E5B3-42BB-B4DC-8F894C1D9B26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
