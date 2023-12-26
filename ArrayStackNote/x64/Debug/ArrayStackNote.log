@@ -1,2 +1,5 @@
-﻿  Test_ArrayStack.c
+﻿  ArrayStack.c
+  Test_ArrayStack.c
+  코드를 생성하고 있습니다...
+C:\C_DataStructure-Algorithm\ArrayStackNote\ArrayStack.c(55): warning C4716: 'AS_IsFull': 값을 반환해야 합니다.
   ArrayStackNote.vcxproj -> C:\C_DataStructure-Algorithm\x64\Debug\ArrayStackNote.exe
